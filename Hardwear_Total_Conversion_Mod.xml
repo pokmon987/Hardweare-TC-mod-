@@ -1,15 +1,23 @@
 <Hardware>
 	<name>Ram</name>
 		<Catagory>hardware</Catagory>
-			<desription>Dynamic Random Action Memory which is used to process data and information in servers and computers. It is nessecary for building consols, computers, and severs</Description>
-				<Random>.3</Random>
-					<catagories>
-						<Catagory Name = "RAM"> 
-							<OSSSpefic>false</OSSSpefic>
-							<OneClient>false</OneClient>
-							<InHouse>false</InHouse>
-							<Features>
-								<FeatureForced>true<FeatureForced>
-									<Name>DRAM</Name>
+		<desription>Electronic and eletric componets used by eletronics</Description>
+		<Random>.3</Random>
+		<catagories>
+			<Catagory Name = "RAM"> 
+				<Description>Dynamic Random Action Memory which is used to process data and information in servers and computers. It is nessecary for building consols, computers, and severs</Description>
+				<popularity>.6</popularity>
+				<retintion>.4</retintion>
+				
+				<OSSSpefic>false</OSSSpefic>
+				<OneClient>false</OneClient>
+				<InHouse>true</InHouse>
+				
+							
+		<Features>
+			<FeatureForced>true<FeatureForced>
+			<Name>DRAM</Name>
+			<Description>Initial unlock for RAM</Description>
+										<
 								
 								
