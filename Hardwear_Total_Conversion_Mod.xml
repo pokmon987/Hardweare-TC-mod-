@@ -1,23 +1,29 @@
-<Hardware>
-	<name>Ram</name>
-		<Catagory>hardware</Catagory>
-		<desription>Electronic and eletric componets used by eletronics</Description>
+<Electronics>
+	<name>Printer</name>
+		<Catagory>Eletronics</Catagory>
+		<desription>Devices used in everyday life for modern life</Description>
 		<Random>.3</Random>
 		<catagories>
-			<Catagory Name = "RAM"> 
-				<Description>Dynamic Random Action Memory which is used to process data and information in servers and computers. It is nessecary for building consols, computers, and severs</Description>
+			<Catagory Name = "Printer"> 
+				<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or business</Description>
 				<popularity>.6</popularity>
 				<retintion>.4</retintion>
-				
+				<TimeScale>.6</TimeScale>
+				<Iterative>.5</Iterative>
+				<NameGenrator>random</NameGenrator>
+			</catagory>
 				<OSSSpefic>false</OSSSpefic>
 				<OneClient>false</OneClient>
-				<InHouse>true</InHouse>
-				
-							
+				<InHouse>false</InHouse>		
 		<Features>
 			<FeatureForced>true<FeatureForced>
-			<Name>DRAM</Name>
-			<Description>Initial unlock for RAM</Description>
-										<
-								
-								
+			<Name>Dot matrix Printer</Name>
+				<Description>Initial unlock for RAM</Description>
+				<DevTime>4</DevTime>
+				<innovation>5</innovation>
+				<usability>5</usability>
+				<stability>4</stability>
+				<CodeArt>.6</CodeArt>
+				<SoftwareCatagory = "Electronics">1980</SoftwareCatagory>	
+		</Features>
+</Electronics>		
