@@ -1,11 +1,11 @@
-<Electronics>
+<SoftwareCatagory = "Electronics">
 	<name>Printer</name>
 		<Catagory>Eletronics</Catagory>
-		<desription>Devices used in everyday life for modern life</Description>
+		<desription>Electronic devices are used everyday life for modern life</Description>
 		<Random>.3</Random>
 		<catagories>
 			<Catagory Name = "Printer"> 
-				<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or business</Description>
+				<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or businesses</Description>
 				<popularity>.6</popularity>
 				<retintion>.4</retintion>
 				<TimeScale>.6</TimeScale>
@@ -18,7 +18,7 @@
 		<Features>
 			<FeatureForced>true<FeatureForced>
 			<Name>Dot matrix Printer</Name>
-				<Description>Initial unlock for RAM</Description>
+				<Description>Initial unlock for printer</Description>
 				<DevTime>4</DevTime>
 				<innovation>5</innovation>
 				<usability>5</usability>
@@ -26,4 +26,37 @@
 				<CodeArt>.6</CodeArt>
 				<SoftwareCatagory = "Electronics">1980</SoftwareCatagory>	
 		</Features>
-</Electronics>		
+		<Features>
+			<FeatureForced>true<FeatureForced>
+			<Name>Digital Key Interface</Name>
+				<Description>Mechanical Keys with a digital screen</Description>
+				<DevTime>3</DevTime>
+				<innovation>6</innovation>
+				<usability>5</usability>
+				<stability>5</stability>
+				<CodeArt>.8</CodeArt>
+				<SoftwareCatagory = "Electronics">1991</SoftwareCatagory>	
+		</Features>
+		<Features>
+			<FeatureForced>true<FeatureForced>
+			<Name>Inkjet Printer</Name>
+				<Description>Initial unlock for printer</Description>
+				<DevTime>3</DevTime>
+				<innovation>7</innovation>
+				<usability>5</usability>
+				<stability>6</stability>
+				<CodeArt>.4</CodeArt>
+				<SoftwareCatagory = "Electronics">1993</SoftwareCatagory>	
+		</Features>
+		<Features>
+			<FeatureForced>true<FeatureForced>
+			<Name>Laser Inkjet Printer</Name>
+				<Description>Initial unlock for printer</Description>
+				<DevTime>3</DevTime>
+				<innovation>7</innovation>
+				<usability>5</usability>
+				<stability>6</stability>
+				<CodeArt>.4</CodeArt>
+				<SoftwareCatagory = "Electronics">1998</SoftwareCatagory>	
+		</Features>
+</SoftwareCatagory>		
