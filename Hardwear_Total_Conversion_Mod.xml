@@ -40,8 +40,8 @@
 		<Features>
 			<FeatureForced>true<FeatureForced>
 			<Name>Inkjet Printer</Name>
-				<Description>Initial unlock for printer</Description>
-				<DevTime>3</DevTime>
+				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
+				<DevTime>4</DevTime>
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
@@ -52,7 +52,7 @@
 			<FeatureForced>true<FeatureForced>
 			<Name>Laser Inkjet Printer</Name>
 				<Description>Initial unlock for printer</Description>
-				<DevTime>3</DevTime>
+				<DevTime>5</DevTime>
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
