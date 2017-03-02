@@ -1,22 +1,24 @@
 <SoftwareType>
 	<name>Printer</name>
-		<Catagory>Eletronics</Catagory>
-		<desription>Electronic devices are used everyday life for modern life</Description>
-		<Random>.3</Random>
-		<catagories>
-			<CatagoyName = "Eletronics">
-				<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or businesses</Description>
-				<popularity>.6</popularity>
-				<retintion>.4</retintion>
-				<TimeScale>.6</TimeScale>
-				<Iterative>.5</Iterative>
-				<NameGenrator>random</NameGenrator>
-		</Catagories>	
+		<Catagory>
+			<Catagory>Eletronics</Catagory>
+				<Description>Electronic devices are used everyday life for modern life</Description>
+				<Random>.3</Random>
+				<Catagories>
+					<CatagoyName = "Eletronics">
+						<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or businesses</Description>
+						<popularity>.6</popularity>
+						<retintion>.4</retintion>
+						<TimeScale>.6</TimeScale>
+						<Iterative>.5</Iterative>
+						<NameGenerator>printergen</NameGenerator>
+			</Catagories>
 				<OSSSpefic>false</OSSSpefic>
 				<OneClient>false</OneClient>
 				<InHouse>false</InHouse>		
+			</Catagory>
 	<Features>
-		<Feature>
+	<Feature>
 			<FeatureForced>true<FeatureForced>
 			<Name>Dot matrix Printer</Name>
 				<Description>Initial unlock for printer</Description>
@@ -26,11 +28,22 @@
 				<stability>4</stability>
 				<CodeArt>.6</CodeArt>
 				<unlock>1980</unlock>
-				</SoftwareCatagory>	
 	</Feature>
-		<Feature>
-			<FeatureForced>true<FeatureForced>
+	<Feature>
+			<Name>Mechanical Key Interface</Name>
+				<FeatureFrom>Dot Matrix Printer</FeatureFrom>
+				<Description>Mechanical Keys with a 4 color screen</Description>
+				<DevTime>3</DevTime>
+				<innovation>6</innovation>
+				<usability>5</usability>
+				<stability>5</stability>
+				<CodeArt>.8</CodeArt>
+				<unlock>1982</unlock>
+	</Feature>
+	<Feature>
+			<FeatureFrom>Mechanical Key Interface<FeatureFrom>
 			<Name>Digital Key Interface</Name>
+				<FeatureFrom>Mechanical Key Interface</FeatureFrom>
 				<Description>Mechanical Keys with a digital screen</Description>
 				<DevTime>3</DevTime>
 				<innovation>6</innovation>
@@ -39,8 +52,8 @@
 				<CodeArt>.8</CodeArt>
 				<unlock>1991</unlock>
 	</Feature>
-		<Feature>
-			<FeatureForced>true<FeatureForced>
+	<Feature>
+			<FeatureFrom>Dot matrix Printer<FeatureFrom>
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
@@ -50,8 +63,8 @@
 				<CodeArt>.4</CodeArt>
 				<unlock>1993</unlock>	
 	</Feature>
-		<Feature>
-			<FeatureForced>true<FeatureForced>
+	<Feature>
+			<FeatureFrom>Inkjet Printer<FeatureFrom>
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
@@ -61,9 +74,9 @@
 				<CodeArt>.4</CodeArt>
 				<unlock>1998</unlock>
 	</Feature>
-		<Feature>
-<			<FeatureForced>True</FeatureForced>
-			<Name>Fine Injet Printing</Name>
+	<Feature>
+			<FeatureFrom>Dot matrix Printer</FeatureFrom>
+				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
 				<innovation>7</innovation>
@@ -71,7 +84,6 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<unlock>1991</unlock>
-			</Feature>
+	</Feature>
 		</Features>
-	</SoftwareType>	
-	
+	</SoftwareType>		
