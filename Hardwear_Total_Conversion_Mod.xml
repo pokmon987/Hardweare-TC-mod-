@@ -15,6 +15,8 @@
 				<OSSSpefic>false</OSSSpefic>
 				<OneClient>false</OneClient>
 				<InHouse>false</InHouse>		
+<SoftwareCatagory>
+	<Features>
 		<Features>
 			<FeatureForced>true<FeatureForced>
 			<Name>Dot matrix Printer</Name>
@@ -24,8 +26,10 @@
 				<usability>5</usability>
 				<stability>4</stability>
 				<CodeArt>.6</CodeArt>
-				<SoftwareCatagory = "Electronics">1980</SoftwareCatagory>	
+				<unlock>1980</unlock>
+				</SoftwareCatagory>	
 		</Features>
+<SoftwareCatagory>
 		<Features>
 			<FeatureForced>true<FeatureForced>
 			<Name>Digital Key Interface</Name>
@@ -35,28 +39,49 @@
 				<usability>5</usability>
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
+				<unlock>1991</unlock>
 				<SoftwareCatagory = "Electronics">1991</SoftwareCatagory>	
 		</Features>
+</SoftwareCatagory>
+<SoftwareCatagory>	
 		<Features>
 			<FeatureForced>true<FeatureForced>
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
-				<DevTime>4</DevTime>
+				<DevTime>6</DevTime>
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<SoftwareCatagory = "Electronics">1993</SoftwareCatagory>	
+				<unlock>1993</unlock>
+</SoftwareCatagory>	
 		</Features>
+<SoftwareCatagory>
 		<Features>
-			<FeatureForced>true<FeatureForced>
+		<FeatureForced>true<FeatureForced>
 			<Name>Laser Inkjet Printer</Name>
-				<Description>Initial unlock for printer</Description>
-				<DevTime>5</DevTime>
+				<Description>A high-speed version of inkjet printing</Description>
+				<DevTime>8</DevTime>
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<SoftwareCatagory = "Electronics">1998</SoftwareCatagory>	
+				<unlock>1998</unlock>
+</SoftwareCatagory>	
 		</Features>
-</SoftwareCatagory>		
+	<Features>
+<SoftwareCatagory>
+		<FeatureForced>true<FeatureForced>
+			<Name>Fine Injet Printing</Name>
+				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
+				<DevTime>7</DevTime>
+				<innovation>7</innovation>
+				<usability>5</usability>
+				<stability>6</stability>
+				<CodeArt>.4</CodeArt>
+				<unlock>1991</unlock>
+				<SoftwareCatagory = "Electronics">1991</SoftwareCatagory>	
+		</Features>
+	</Features>
+</SoftwareCatagory>	
+		</SoftwareCatagory>
