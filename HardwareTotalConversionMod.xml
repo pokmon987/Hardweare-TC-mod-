@@ -1,61 +1,62 @@
 <SoftwareType>
 	<name>Printer</name>
-		<Catagory>New printer surprises the eletronic world!</Catagory>
-				<Description>Electronic devices are used everyday life for modern life</Description>
+		<Category>Printer</Category>
+				<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
 				<Random>.3</Random>
-				<Catagories>
-					<Catagory Name="Electronics">
-						<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
+				<Categories>
+					<Category Name="Eletronics">
+						<Description>Electronic devices are used everyday life for modern life</Description>
 						<popularity>.8</popularity>
 						<retintion>.7</retintion>
 						<TimeScale>.6</TimeScale>
 						<Iterative>.7</Iterative>
-						<NameGenerator>names</NameGenerator>
-				</Catagory>
-			</Catagories>
-				<OSSSpefic>false</OSSSpefic>
-				<OneClient>false</OneClient>
-				<InHouse>false</InHouse>		
-			</Catagory>
-		<Features>
+						<NameGenerator>Names</NameGenerator>
+				</Category>
+			</Categories>
+				<OSSSpefic>False</OSSSpefic>
+				<OneClient>False</OneClient>
+				<InHouse>False</InHouse>		
+	<Features>
+		<FeatureForced="True">
 	<Feature>
-			<FeatureForced>true<FeatureForced>
-			<Name>Dot matrix Printer</Name>
-				<Description>Initial unlock for printer</Description>
-				<DevTime>4</DevTime>
-				<innovation>5</innovation>
-				<usability>5</usability>
-				<stability>4</stability>
-				<CodeArt>.6</CodeArt>
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1980</SoftwareCatagoy>  
-	</Feature>
-		<Feature>
 			<Name>Mechanical Key Interface</Name>
-				<FeatureFrom>Dot Matrix Printer</FeatureFrom>
 				<Description>Mechanical Keys with a 4 color screen</Description>
 				<DevTime>3</DevTime>
 				<innovation>6</innovation>
 				<usability>5</usability>
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1982</SoftwareCatagoy>  
+				<Category>Physical</Category>
+				<Unlock>1980</Unlock>
+				<DependencySoftware="Printer">Dot Matritx Printer</ependencySoftware>
+				
 	</Feature>
-		<Feature>
-			<FeatureFrom>Mechanical Key Interface<FeatureFrom>
+	<Feature>
 			<Name>Digital Key Interface</Name>
 				<FeatureFrom>Mechanical Key Interface</FeatureFrom>
-				<Description>Mechanical Keys with a digital screen</Description>
-				<DevTime>3</DevTime>
+				<Description>Digital Keys with a 16 color screen</Description>
+				<DevTime>4</DevTime>
 				<innovation>6</innovation>
 				<usability>5</usability>
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1991</SoftwareCatagoy>  
+				<Category>Physical</Category>
+				<Unlock>1993</Unlock>
+				<DependencySoftware="Printer">Injet Printer</ependencySoftware>
 	</Feature>
-		<Feature>
+	<Feature>
+			<FeatureForced="True">
+			<Name>Dot matrix Printer</Name>
+				<Description>The first digital printer</Description>
+				<DevTime>4</DevTime>
+				<innovation>5</innovation>
+				<usability>5</usability>
+				<stability>4</stability>
+				<CodeArt>.6</CodeArt>
+				<Catagory>Printer</Catagory>
+				<Unlock>1980</Unlock>  
+	</Feature>
+	<Feature>
 			<FeatureFrom>Dot matrix Printer<FeatureFrom>
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
@@ -63,11 +64,11 @@
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
-				<CodeArt>.4</CodeArt
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1993</SoftwareCatagoy>
+				<CodeArt>.4</CodeArt>
+				<Catagory>Printer</Catagory> 
+				<Unlock>1980</Unlock>
 	</Feature>
-		<Feature>
+	<Feature>
 			<FeatureFrom>Inkjet Printer<FeatureFrom>
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
@@ -76,8 +77,8 @@
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1998</SoftwareCatagoy>
+				<Catagory>Printer</Catagory>
+				<Unlock>1998</Unlock>
 	</Feature>
 		<Feature>
 			<FeatureFrom>Dot matrix Printer</FeatureFrom>
@@ -88,8 +89,8 @@
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<Catagory>Consumer Electronics</Catagory>
-				<SoftwareCatagoy Catagory="Eletronics">1991</SoftwareCatagoy>
+				<Catagory>Printer</Catagory>
+				<Unlock>1991</Unlock>
 			</Feature>
 		</Features>
 	</SoftwareType>		
