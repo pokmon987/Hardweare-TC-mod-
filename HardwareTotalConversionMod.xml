@@ -1,16 +1,16 @@
 <SoftwareType>
 	<name>Printer</name>
-		<Catagory>Consumer Electronics</Catagory>
+		<Catagory>New printer surprises the eletronic world!</Catagory>
 				<Description>Electronic devices are used everyday life for modern life</Description>
 				<Random>.3</Random>
 				<Catagories>
-					<CatagoyName = "Eletronics">
-						<Description>Used in printing out doctuments and a verity of other paper items used in home, school, or businesses</Description>
-						<popularity>.6</popularity>
-						<retintion>.4</retintion>
+					<Catagory Name="Electronics">
+						<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
+						<popularity>.8</popularity>
+						<retintion>.7</retintion>
 						<TimeScale>.6</TimeScale>
-						<Iterative>.5</Iterative>
-						<NameGenerator>printergen</NameGenerator>
+						<Iterative>.7</Iterative>
+						<NameGenerator>names</NameGenerator>
 				</Catagory>
 			</Catagories>
 				<OSSSpefic>false</OSSSpefic>
@@ -27,9 +27,8 @@
 				<usability>5</usability>
 				<stability>4</stability>
 				<CodeArt>.6</CodeArt>
-				<unlock>1980</unlock>
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1980</SoftwareCatagoy>  
 	</Feature>
 		<Feature>
 			<Name>Mechanical Key Interface</Name>
@@ -40,9 +39,8 @@
 				<usability>5</usability>
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
-				<unlock>1982</unlock>
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1982</SoftwareCatagoy>  
 	</Feature>
 		<Feature>
 			<FeatureFrom>Mechanical Key Interface<FeatureFrom>
@@ -54,9 +52,8 @@
 				<usability>5</usability>
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
-				<unlock>1991</unlock>
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1991</SoftwareCatagoy>  
 	</Feature>
 		<Feature>
 			<FeatureFrom>Dot matrix Printer<FeatureFrom>
@@ -66,10 +63,9 @@
 				<innovation>7</innovation>
 				<usability>5</usability>
 				<stability>6</stability>
-				<CodeArt>.4</CodeArt>
-				<unlock>1993</unlock>
+				<CodeArt>.4</CodeArt
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1993</SoftwareCatagoy>
 	</Feature>
 		<Feature>
 			<FeatureFrom>Inkjet Printer<FeatureFrom>
@@ -80,9 +76,8 @@
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<unlock>1998</unlock>
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1998</SoftwareCatagoy>
 	</Feature>
 		<Feature>
 			<FeatureFrom>Dot matrix Printer</FeatureFrom>
@@ -93,10 +88,8 @@
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<unlock>1991</unlock>
 				<Catagory>Consumer Electronics</Catagory>
-				<CatagoyName = "Eletronics">
+				<SoftwareCatagoy Catagory="Eletronics">1991</SoftwareCatagoy>
 			</Feature>
 		</Features>
-	
 	</SoftwareType>		
