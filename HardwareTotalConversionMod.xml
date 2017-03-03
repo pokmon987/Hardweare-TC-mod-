@@ -1,7 +1,6 @@
 <SoftwareType>
 	<name>Printer</name>
-		<Catagory>
-			<Catagory>Eletronics</Catagory>
+		<Catagory>Consumer Electronics</Catagory>
 				<Description>Electronic devices are used everyday life for modern life</Description>
 				<Random>.3</Random>
 				<Catagories>
@@ -12,12 +11,13 @@
 						<TimeScale>.6</TimeScale>
 						<Iterative>.5</Iterative>
 						<NameGenerator>printergen</NameGenerator>
+				</Catagory>
 			</Catagories>
 				<OSSSpefic>false</OSSSpefic>
 				<OneClient>false</OneClient>
 				<InHouse>false</InHouse>		
 			</Catagory>
-	<Features>
+		<Features>
 	<Feature>
 			<FeatureForced>true<FeatureForced>
 			<Name>Dot matrix Printer</Name>
@@ -28,8 +28,10 @@
 				<stability>4</stability>
 				<CodeArt>.6</CodeArt>
 				<unlock>1980</unlock>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
 	</Feature>
-	<Feature>
+		<Feature>
 			<Name>Mechanical Key Interface</Name>
 				<FeatureFrom>Dot Matrix Printer</FeatureFrom>
 				<Description>Mechanical Keys with a 4 color screen</Description>
@@ -39,8 +41,10 @@
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
 				<unlock>1982</unlock>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
 	</Feature>
-	<Feature>
+		<Feature>
 			<FeatureFrom>Mechanical Key Interface<FeatureFrom>
 			<Name>Digital Key Interface</Name>
 				<FeatureFrom>Mechanical Key Interface</FeatureFrom>
@@ -51,8 +55,10 @@
 				<stability>5</stability>
 				<CodeArt>.8</CodeArt>
 				<unlock>1991</unlock>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
 	</Feature>
-	<Feature>
+		<Feature>
 			<FeatureFrom>Dot matrix Printer<FeatureFrom>
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
@@ -61,9 +67,11 @@
 				<usability>5</usability>
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<unlock>1993</unlock>	
+				<unlock>1993</unlock>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
 	</Feature>
-	<Feature>
+		<Feature>
 			<FeatureFrom>Inkjet Printer<FeatureFrom>
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
@@ -73,8 +81,10 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<unlock>1998</unlock>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
 	</Feature>
-	<Feature>
+		<Feature>
 			<FeatureFrom>Dot matrix Printer</FeatureFrom>
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
@@ -84,6 +94,9 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<unlock>1991</unlock>
-	</Feature>
+				<Catagory>Consumer Electronics</Catagory>
+				<CatagoyName = "Eletronics">
+			</Feature>
 		</Features>
+	
 	</SoftwareType>		
