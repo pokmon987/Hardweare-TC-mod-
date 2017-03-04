@@ -1,11 +1,11 @@
 <SoftwareType>
-	<name>Printer</name>
+	<Name>Printer</Name>
 		<Category>Printer</Category>
 				<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
 				<Random>.3</Random>
 				<Categories>
-					<Category Name="Eletronics">
-						<Description>Electronic devices are used everyday life for modern life</Description>
+					<Category Name="Printer">
+						<Description>Miracle robot scribes which spit out thousandes of documents. These eletronic tireless workers do this important workers for homes, schools, and businesses.</Description>
 						<popularity>.8</popularity>
 						<retintion>.7</retintion>
 						<TimeScale>.6</TimeScale>
@@ -20,7 +20,7 @@
 		<FeatureForced="True">
 	<Feature>
 			<Name>Mechanical Key Interface</Name>
-				<Description>Mechanical Keys with a 4 color screen</Description>
+				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
 				<innovation>6</innovation>
 				<usability>5</usability>
@@ -33,8 +33,8 @@
 	</Feature>
 	<Feature>
 			<Name>Digital Key Interface</Name>
-				<FeatureFrom>Mechanical Key Interface</FeatureFrom>
-				<Description>Digital Keys with a 16 color screen</Description>
+				<FeatureFrom="Mechanical Key Interface">
+				<Description>Digital Keys with a 4 color screen</Description>
 				<DevTime>4</DevTime>
 				<innovation>6</innovation>
 				<usability>5</usability>
@@ -57,7 +57,7 @@
 				<Unlock>1980</Unlock>  
 	</Feature>
 	<Feature>
-			<FeatureFrom>Dot matrix Printer<FeatureFrom>
+			<FeatureFrom="Dot matrix Printer">
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
@@ -69,7 +69,7 @@
 				<Unlock>1980</Unlock>
 	</Feature>
 	<Feature>
-			<FeatureFrom>Inkjet Printer<FeatureFrom>
+			<FeatureFrom="Inkjet Printer">
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
@@ -78,10 +78,11 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<Catagory>Printer</Catagory>
+				<DependencySoftware="Printer">Laser Injet Printer</DependencySoftware>
 				<Unlock>1998</Unlock>
 	</Feature>
 		<Feature>
-			<FeatureFrom>Dot matrix Printer</FeatureFrom>
+			<FeatureFrom="Dot matrix Printer">
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
