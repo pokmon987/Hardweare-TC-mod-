@@ -13,12 +13,11 @@
 						<NameGenerator>Names</NameGenerator>
 				</Category>
 			</Categories>
-				<OSSSpefic>False</OSSSpefic>
+				<OSSpefic>False</OSSpefic>
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
 	<Features>
-		<FeatureForced="True">
-	<Feature>
+			<Feature Forced ="True">
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
@@ -28,12 +27,11 @@
 				<CodeArt>.8</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>1980</Unlock>
-				<DependencySoftware="Printer">Dot Matritx Printer</ependencySoftware>
+				<Dependency Software="Printer">Dot Matritx Printer</Dependency>
 				
 	</Feature>
-	<Feature>
 			<Name>Digital Key Interface</Name>
-				<FeatureFrom="Mechanical Key Interface">
+				<Feature From="Mechanical Key Interface">
 				<Description>Digital Keys with a 4 color screen</Description>
 				<DevTime>4</DevTime>
 				<innovation>6</innovation>
@@ -42,10 +40,9 @@
 				<CodeArt>.8</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>1993</Unlock>
-				<DependencySoftware="Printer">Injet Printer</ependencySoftware>
+				<Dependency Software="Printer">Injet Printer</Dependency>
 	</Feature>
-	<Feature>
-			<FeatureForced="True">
+			<Feature Forced="True">
 			<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
 				<DevTime>4</DevTime>
@@ -56,8 +53,7 @@
 				<Catagory>Printer</Catagory>
 				<Unlock>1980</Unlock>  
 	</Feature>
-	<Feature>
-			<FeatureFrom="Dot matrix Printer">
+			<Feature From="Dot matrix Printer">
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
@@ -68,8 +64,7 @@
 				<Catagory>Printer</Catagory> 
 				<Unlock>1980</Unlock>
 	</Feature>
-	<Feature>
-			<FeatureFrom="Inkjet Printer">
+			<Feature From="Inkjet Printer">
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
@@ -78,11 +73,10 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<Catagory>Printer</Catagory>
-				<DependencySoftware="Printer">Laser Injet Printer</DependencySoftware>
+				<Dependency Software="Printer">Laser Injet Printer</Dependency>
 				<Unlock>1998</Unlock>
 	</Feature>
-		<Feature>
-			<FeatureFrom="Dot matrix Printer">
+			<Feature  From="Dot matrix Printer">
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
