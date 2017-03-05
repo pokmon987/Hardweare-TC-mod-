@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Printer</Name>
 		<Category>Printer</Category>
-				<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
+				<Description>Used in printing out documents and a variety of other paper items used in homes, schools, or businesses</Description>
 				<Random>.3</Random>
 				<Categories>
 					<Category Name="Printer">
@@ -13,7 +13,7 @@
 						<NameGenerator>Names</NameGenerator>
 				</Category>
 			</Categories>
-				<OSSpefic>False</OSSpefic>
+				<OSSpecific>False</OSSpecific>
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
 	<Features>
