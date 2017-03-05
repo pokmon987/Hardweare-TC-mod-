@@ -17,8 +17,12 @@
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
 	<Features>
+<<<<<<< HEAD
 		<Feature Forced="True">
 	<Feature>
+=======
+			<Feature Forced ="True">
+>>>>>>> origin/master
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
@@ -28,10 +32,9 @@
 				<CodeArt>.8</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>1980</Unlock>
-				<DependencySoftware="Printer">Dot Matritx Printer</ependencySoftware>
+				<Dependency Software="Printer">Dot Matritx Printer</Dependency>
 				
 	</Feature>
-	<Feature>
 			<Name>Digital Key Interface</Name>
 				<Feature From="Mechanical Key Interface">
 				<Description>Digital Keys with a 4 color screen</Description>
@@ -44,7 +47,10 @@
 				<Unlock>1993</Unlock>
 				<Dependency Software="Printer">Injet Printer</Dependency>
 	</Feature>
+<<<<<<< HEAD
 	<Feature>
+=======
+>>>>>>> origin/master
 			<Feature Forced="True">
 			<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
@@ -56,7 +62,10 @@
 				<Catagory>Printer</Catagory>
 				<Unlock>1980</Unlock>  
 	</Feature>
+<<<<<<< HEAD
 	<Feature>
+=======
+>>>>>>> origin/master
 			<Feature From="Dot matrix Printer">
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
@@ -69,8 +78,7 @@
 				<Dependency Software="Printer">Dot Matritx Printer</Dependency>
 				<Unlock>1993</Unlock>
 	</Feature>
-	<Feature>
-			<FeatureFrom="Inkjet Printer">
+			<Feature From="Inkjet Printer">
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
@@ -79,11 +87,18 @@
 				<stability>6</stability>
 				<CodeArt>.4</CodeArt>
 				<Catagory>Printer</Catagory>
+<<<<<<< HEAD
 				<Dependency Software="Printer">Injet Printer</Dependency>
 				<Unlock>1998</Unlock>
 	</Feature>
 	<Feature>
 			<FeatureFrom="Dot matrix Printer">
+=======
+				<Dependency Software="Printer">Laser Injet Printer</Dependency>
+				<Unlock>1998</Unlock>
+	</Feature>
+			<Feature  From="Dot matrix Printer">
+>>>>>>> origin/master
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
