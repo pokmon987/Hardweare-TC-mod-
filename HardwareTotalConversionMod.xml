@@ -5,7 +5,7 @@
 				<Random>.3</Random>
 				<Categories>
 					<Category Name="Printer">
-						<Description>Miracle robot scribes which spit out thousandes of documents. These eletronic tireless workers do this important workers for homes, schools, and businesses.</Description>
+						<Description>Miracle robot scribes which spit out thousandes of documents. These tireless eletronic workers do this important task for homes, schools, and businesses.</Description>
 						<popularity>.8</popularity>
 						<retintion>.7</retintion>
 						<TimeScale>.6</TimeScale>
@@ -17,12 +17,9 @@
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
 	<Features>
-
 	<Feature Forced="True">
 	<Feature>
-=======
 			<Feature Forced ="True">
-
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
@@ -48,7 +45,6 @@
 				<Dependency Software="Printer">Injet Printer</Dependency>
 	</Feature>
 	<Feature>
-
 			<Feature Forced="True">
 			<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
@@ -61,7 +57,6 @@
 				<Unlock>1980</Unlock>  
 	</Feature>
 	<Feature>
-
 			<Feature From="Dot matrix Printer">
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
@@ -87,14 +82,7 @@
 				<Dependency Software="Printer">Injet Printer</Dependency>
 				<Unlock>1998</Unlock>
 	</Feature>
-	<Feature>
-			<FeatureFrom="Dot matrix Printer">
-=======
-				<Dependency Software="Printer">Laser Injet Printer</Dependency>
-				<Unlock>1998</Unlock>
-	</Feature>
-			<Feature  From="Dot matrix Printer">
-
+    <Feature From="Dot matrix Printer">
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
