@@ -6,23 +6,19 @@
 				<Categories>
 					<Category Name="Printer">
 						<Description>Miracle robot scribes which spit out thousands of documents. These tireless electronic workers do this important task for homes, schools, and businesses.</Description>
-						<Popularity>.8</Popularity>
-					<Retention>0.7</Retention>
-
-						<TimeScale>.6</TimeScale>
-						<Iterative>.7</Iterative>
+						<Popularity>0.8</Popularity>
+						<Retention>0.7</Retention>
+						<TimeScale>0.6</TimeScale>
+						<Iterative>0.7</Iterative>
 						<NameGenerator>Names</NameGenerator>
 				</Category>
 			</Categories>
-				<OSSpeific>False</OSSpeific>
+				<OSSpecific>False</OSSpecific>
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
 
 	<Features>
 	<Feature Forced="True">
-	<Feature>
-			<Feature Forced="True">
-
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
@@ -36,8 +32,7 @@
 			
 
 	</Feature>
-
-			<Name>Digital Key Interface</Name>
+		<Name>Digital Key Interface</Name>
 				<Feature From="Mechanical Key Interface">
 				<Description>Digital Keys with a 4 color screen</Description>
 				<DevTime>4</DevTime>
@@ -48,10 +43,8 @@
 				<Category>Physical</Category>
 				<Unlock>1993</Unlock>
 				<Dependency Software="Printer">Inkjet Printer</Dependency>
-
 	</Feature>
 	<Feature>
-
 		<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
 				<DevTime>4</DevTime>
@@ -65,7 +58,6 @@
 	</Feature>
 	<Feature>
 			<Feature From="Dot matrix Printer">
-
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing involving tiny ink droplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
@@ -79,7 +71,6 @@
 
 	</Feature>
 			<Feature From="Inkjet Printer">
-
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
@@ -93,15 +84,14 @@
 				
 	</Feature>
 			<Feature From="Dot matrix Printer">
-
-				<Name>Fine Inkjet Printing</Name>
+			<Name>Fine Inkjet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic design</Description>
 				<DevTime>7</DevTime>
 				<Innovation>7</Innovation>
 				<Usability>5</Usability>
 				<Stability>6</Stability>
 				<CodeArt>.4</CodeArt>
-				<Catagory>Printer</Catagory>
+				<Category>Printer</Category>
 				<Unlock>1991</Unlock>
 			</Feature>
 		</Features>
