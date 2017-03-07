@@ -7,7 +7,8 @@
 					<Category Name="Printer">
 						<Description>Miracle robot scribes which spit out thousands of documents. These tireless electronic workers do this important task for homes, schools, and businesses.</Description>
 						<Popularity>.8</Popularity>
-						<retintion>.7</retintion>
+					<Retention>0.7</Retention>
+
 						<TimeScale>.6</TimeScale>
 						<Iterative>.7</Iterative>
 						<NameGenerator>Names</NameGenerator>
@@ -66,7 +67,7 @@
 			<Feature From="Dot matrix Printer">
 
 			<Name>Inkjet Printer</Name>
-				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
+				<Description>A method of printing involving tiny ink droplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
 				<Innovation>7</Innovation>
 				<Usability>5</Usability>
@@ -91,14 +92,14 @@
 				<Unlock>1998</Unlock> 
 				
 	</Feature>
-			+<Feature From="Dot matrix Printer">
+			<Feature From="Dot matrix Printer">
 
 				<Name>Fine Inkjet Printing</Name>
-				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
+				<Description>A high-speed version of inkjet printing for graphic design</Description>
 				<DevTime>7</DevTime>
-				<innovation>7</innovation>
-				<usability>5</usability>
-				<stability>6</stability>
+				<Innovation>7</Innovation>
+				<Usability>5</Usability>
+				<Stability>6</Stability>
 				<CodeArt>.4</CodeArt>
 				<Catagory>Printer</Catagory>
 				<Unlock>1991</Unlock>
