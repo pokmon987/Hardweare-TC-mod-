@@ -1,12 +1,12 @@
 <SoftwareType>
 	<Name>Printer</Name>
 		<Category>Printer</Category>
-				<Description>Used in printing out doctuments and a verity of other paper items used in homes, schools, or businesses</Description>
+				<Description>Used in printing out documents and a verity of other paper items used in homes, schools, or businesses</Description>
 				<Random>.3</Random>
 				<Categories>
 					<Category Name="Printer">
-						<Description>Miracle robot scribes which spit out thousandes of documents. These tireless eletronic workers do this important task for homes, schools, and businesses.</Description>
-						<popularity>.8</popularity>
+						<Description>Miracle robot scribes which spit out thousands of documents. These tireless electronic workers do this important task for homes, schools, and businesses.</Description>
+						<Popularity>.8</Popularity>
 						<retintion>.7</retintion>
 						<TimeScale>.6</TimeScale>
 						<Iterative>.7</Iterative>
@@ -16,73 +16,84 @@
 				<OSSpeific>False</OSSpeific>
 				<OneClient>False</OneClient>
 				<InHouse>False</InHouse>		
+
 	<Features>
 	<Feature Forced="True">
 	<Feature>
 			<Feature Forced="True">
+
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
-				<innovation>6</innovation>
-				<usability>5</usability>
-				<stability>5</stability>
+				<Innovation>6</innovation>
+				<Usability>5</Usability>
+				<Stability>5</Stability>
 				<CodeArt>.8</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>1980</Unlock>
-				<Dependency Software="Printer">Dot Matritx Printer</Dependency>
-				
+				<Dependency Software="Printer">Dot Matrix Printer</Dependency>
+			
+
 	</Feature>
+
 			<Name>Digital Key Interface</Name>
 				<Feature From="Mechanical Key Interface">
 				<Description>Digital Keys with a 4 color screen</Description>
 				<DevTime>4</DevTime>
-				<innovation>6</innovation>
-				<usability>5</usability>
-				<stability>5</stability>
+				<Innovation>6</Innovation>
+				<Usability>5</Usability>
+				<Stability>5</Stability>
 				<CodeArt>.8</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>1993</Unlock>
-				<Dependency Software="Printer">Injet Printer</Dependency>
+				<Dependency Software="Printer">Inkjet Printer</Dependency>
+
 	</Feature>
 	<Feature>
-			<Name>Dot matrix Printer</Name>
+
+		<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
 				<DevTime>4</DevTime>
-				<innovation>5</innovation>
-				<usability>5</usability>
-				<stability>4</stability>
+				<Innovation>5</Innovation>
+				<Usability>5</usability>
+				<Stability>4</Stability>
 				<CodeArt>.6</CodeArt>
-				<Catagory>Printer</Catagory>
+				<Category>Printer</Category>
 				<Unlock>1980</Unlock>  
+	
 	</Feature>
 	<Feature>
 			<Feature From="Dot matrix Printer">
+
 			<Name>Inkjet Printer</Name>
 				<Description>A method of printing invovling tiny inkdroplets being ejected onto the paper at high speeds</Description>
 				<DevTime>6</DevTime>
-				<innovation>7</innovation>
-				<usability>5</usability>
-				<stability>6</stability>
+				<Innovation>7</Innovation>
+				<Usability>5</Usability>
+				<Stability>6</Stability>
 				<CodeArt>.4</CodeArt>
-				<Catagory>Printer</Catagory> 
-				<Dependency Software="Printer">Dot Matritx Printer</Dependency>
+				<Category>Printer</Category> 
+				<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 				<Unlock>1993</Unlock>
+
 	</Feature>
 			<Feature From="Inkjet Printer">
+
 			<Name>Laser Inkjet Printer</Name>
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
-				<innovation>7</innovation>
-				<usability>5</usability>
-				<stability>6</stability>
+				<Innovation>7</Innovation>
+				<Usability>5</usability>
+				<Stability>6</stability>
 				<CodeArt>.4</CodeArt>
-				<Catagory>Printer</Catagory>
-
-				<Dependency Software="Printer">Injet Printer</Dependency>
-				<Unlock>1998</Unlock>
+				<Category>Printer</Category>
+				<Dependency Software="Printer">Inkjet Printer</Dependency>
+				<Unlock>1998</Unlock> 
+				
 	</Feature>
 			+<Feature From="Dot matrix Printer">
-				<Name>Fine Injet Printing</Name>
+
+				<Name>Fine Inkjet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
 				<innovation>7</innovation>
@@ -93,4 +104,4 @@
 				<Unlock>1991</Unlock>
 			</Feature>
 		</Features>
-</SoftwareType>
+ </SoftwareType>
