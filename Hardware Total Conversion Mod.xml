@@ -19,7 +19,7 @@
 	<Features>
 	<Feature Forced="True">
 	<Feature>
-			<Feature Forced ="True">
+			<Feature Forced="True">
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
@@ -45,7 +45,6 @@
 				<Dependency Software="Printer">Injet Printer</Dependency>
 	</Feature>
 	<Feature>
-			<Feature Forced="True">
 			<Name>Dot matrix Printer</Name>
 				<Description>The first digital printer</Description>
 				<DevTime>4</DevTime>
@@ -82,7 +81,7 @@
 				<Dependency Software="Printer">Injet Printer</Dependency>
 				<Unlock>1998</Unlock>
 	</Feature>
-    <Feature From="Dot matrix Printer">
+			+<Feature From="Dot matrix Printer">
 				<Name>Fine Injet Printing</Name>
 				<Description>A high-speed version of inkjet printing for graphic desgin</Description>
 				<DevTime>7</DevTime>
