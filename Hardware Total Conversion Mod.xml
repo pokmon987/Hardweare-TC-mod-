@@ -22,7 +22,7 @@
 			<Name>Mechanical Key Interface</Name>
 				<Description>Mechanical Keys with a 2 color screen</Description>
 				<DevTime>3</DevTime>
-				<Innovation>6</innovation>
+				<Innovation>6</Innovation>
 				<Usability>5</Usability>
 				<Stability>5</Stability>
 				<CodeArt>.8</CodeArt>
@@ -49,7 +49,7 @@
 				<Description>The first digital printer</Description>
 				<DevTime>4</DevTime>
 				<Innovation>5</Innovation>
-				<Usability>5</usability>
+				<Usability>5</Usability>
 				<Stability>4</Stability>
 				<CodeArt>.6</CodeArt>
 				<Category>Printer</Category>
@@ -75,8 +75,8 @@
 				<Description>A high-speed version of inkjet printing</Description>
 				<DevTime>8</DevTime>
 				<Innovation>7</Innovation>
-				<Usability>5</usability>
-				<Stability>6</stability>
+				<Usability>5</Usability>
+				<Stability>6</Stability>
 				<CodeArt>.4</CodeArt>
 				<Category>Printer</Category>
 				<Dependency Software="Printer">Inkjet Printer</Dependency>
