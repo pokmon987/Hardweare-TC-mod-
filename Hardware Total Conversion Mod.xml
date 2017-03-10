@@ -71,7 +71,7 @@
 				<Innovation>7</Innovation>
 				<Usability>5</Usability>
 				<Stability>6</Stability>
-				<CodeArt>.4</CodeArt>
+				<CodeArt>0.4</CodeArt>
 				<Category>Printer</Category> 
 				<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 				<Unlock>1993</Unlock>
@@ -83,7 +83,7 @@
 				<Innovation>7</Innovation>
 				<Usability>5</Usability>
 				<Stability>6</Stability>
-				<CodeArt>.4</CodeArt>
+				<CodeArt>0.4</CodeArt>
 				<Category>Printer</Category>
 				<Dependency Software="Printer">Inkjet Printer</Dependency>
 				<Unlock>1998</Unlock>
@@ -107,7 +107,7 @@
 				<Innovation>7</Innovation>
 				<Usability>5</Usability>
 				<Stability>6</Stability>
-				<CodeArt>.4</CodeArt>
+				<CodeArt>0.4</CodeArt>
 				<Category>Physical</Category>
 				<Dependency Software="Printer">Digital Key Interface</Dependency>
 				<Unlock>2006</Unlock>
@@ -119,7 +119,7 @@
 				<Innovation>6</Innovation>
 				<Usability>8</Usability>
 				<Stability>8</Stability>
-				<CodeArt>.5</CodeArt>
+				<CodeArt>0.7</CodeArt>
 				<Category>Physical</Category>
 				<Unlock>2008</Unlock>
 				<Dependency Software="Printer">Wireless Networking</Dependency>
