@@ -87,7 +87,6 @@
 				<Dependency Software="Printer">Inkjet Printer</Dependency>
 				<Unlock>1998</Unlock>
 			</Feature>	
-		</Features>
 		<Feature From="Laser Inkjet Printer">
 			<Name>Wireless Networking</Name>
 				<Description>Keys on a touchscreen rather than mechanical or digital Interface</Description>
