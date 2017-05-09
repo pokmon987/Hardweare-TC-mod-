@@ -19,14 +19,14 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Dot Matrix Printer</Name>
-				<Description>The first digital printer</Description>
-				<DevTime>4</DevTime>
-				<Innovation>5</Innovation>
-				<Usability>5</Usability>
-				<Stability>4</Stability>
-				<CodeArt>.6</CodeArt>
-				<Category>Printer</Category>
-				<Unlock>1980</Unlock>  
+			<Description>The first digital printer</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>.6</CodeArt>
+			<Category>Printer</Category>
+			<Unlock>1980</Unlock>  
 		</Feature>
 		<Feature>
 			<Name>Mechanical Key Interface</Name>
