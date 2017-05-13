@@ -1,68 +1,68 @@
 <SoftwareType>
 	<Name>Printer</Name>
-		<Category>Printer</Category>
-				<Description>Used in printing out documents and a verity of other paper items used in homes, schools, or businesses</Description>
-				<Random>.3</Random>
-				<Categories>
-					<Category Name="Printer">
-						<Description>Miracle robot scribes which spit out thousands of documents. These tireless electronic workers do this important task for homes, schools, and businesses.</Description>
-						<Popularity>0.8</Popularity>
-						<Retention>0.7</Retention>
-						<TimeScale>0.6</TimeScale>
-						<Iterative>0.7</Iterative>
-						<NameGenerator>Names</NameGenerator>
-				</Category>
-			</Categories>
-				<OSSpecific>False</OSSpecific>
-				<OneClient>False</OneClient>
-				<InHouse>False</InHouse>		
+	<Category>Printer</Category>
+	<Description>Used in printing out documents and a verity of other paper items used in homes, schools, or businesses</Description>
+	<Random>0.3</Random>
+	<Categories>
+		<Category Name="Printer">
+			<Description>Miracle robot scribes which spit out thousands of documents. These tireless electronic workers do this important task for homes, schools, and businesses.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>0.6</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>Names</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>		
 	<Features>
-	<Feature Forced="True">
-		<Name>Dot matrix Printer</Name>
-				<Description>The first digital printer</Description>
-				<DevTime>4</DevTime>
-				<Innovation>5</Innovation>
-				<Usability>5</Usability>
-				<Stability>4</Stability>
-				<CodeArt>.6</CodeArt>
-				<Category>Printer</Category>
-				<Unlock>1980</Unlock>  
+		<Feature Forced="True">
+			<Name>Dot matrix Printer</Name>
+			<Description>The first digital printer</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Category>Printer</Category>
+			<Unlock>1980</Unlock>  
 	</Feature>
 	<Feature>
 			<Name>Mechanical Key Interface</Name>
-				<Description>Mechanical Keys with a 2 color screen</Description>
-				<DevTime>3</DevTime>
-				<Innovation>6</Innovation>
-				<Usability>5</Usability>
-				<Stability>5</Stability>
-				<CodeArt>.8</CodeArt>
-				<Category>Physical</Category>
-				<Unlock>1980</Unlock>
-				<Dependency Software="Printer">Dot Matrix Printer</Dependency>
+			<Description>Mechanical Keys with a 2 color screen</Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Category>Physical</Category>
+			<Unlock>1980</Unlock>
+			<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 	</Feature>
-		</Feature>
-			<Feature From="Dot matrix Printer">
-			<Name>Fine Inkjet Printing</Name>
-				<Description>A high-speed version of inkjet printing for graphic design</Description>
-				<DevTime>7</DevTime>
-				<Innovation>7</Innovation>
-				<Usability>5</Usability>
-				<Stability>6</Stability>
-				<CodeArt>.4</CodeArt>
-				<Category>Printer</Category>
-				<Unlock>1991</Unlock>
-			</Feature>
-			<Feature From="Mechanical Key Interface">
-				<Name>Digital Key Interface</Name>
-					<Description>Digital Keys with a 4 color screen</Description>
-					<DevTime>4</DevTime>
-					<Innovation>6</Innovation>
-					<Usability>5</Usability>
-					<Stability>5</Stability>
-					<CodeArt>.8</CodeArt>
-					<Category>Physical</Category>
-					<Unlock>1993</Unlock>
-					<Dependency Software="Printer">Inkjet Printer</Dependency>
+	</Feature>
+		<Feature From="Dot matrix Printer">
+		<Name>Fine Inkjet Printing</Name>
+		<Description>A high-speed version of inkjet printing for graphic design</Description>
+		<DevTime>7</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>6</Stability>
+		<CodeArt>0.4</CodeArt>
+		<Category>Printer</Category>
+		<Unlock>1991</Unlock>
+	</Feature>
+	<Feature From="Mechanical Key Interface">
+		<Name>Digital Key Interface</Name>
+		<Description>Digital Keys with a 4 color screen</Description>
+		<DevTime>4</DevTime>
+		<Innovation>6</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0.8</CodeArt>
+		<Category>Physical</Category>
+		<Unlock>1993</Unlock>
+		<Dependency Software="Printer">Inkjet Printer</Dependency>
 	</Feature>
 	<Feature From="Dot matrix Printer">
 			<Name>Inkjet Printer</Name>
@@ -77,52 +77,51 @@
 				<Unlock>1993</Unlock>
 	</Feature>
 	<Feature From="Inkjet Printer">
-			<Name>Laser Inkjet Printer</Name>
-				<Description>A high-speed version of inkjet printing</Description>
-				<DevTime>8</DevTime>
-				<Innovation>7</Innovation>
-				<Usability>5</Usability>
-				<Stability>6</Stability>
-				<CodeArt>0.4</CodeArt>
-				<Category>Printer</Category>
-				<Dependency Software="Printer">Inkjet Printer</Dependency>
-				<Unlock>1998</Unlock>
-			</Feature>	
-		</Features>
-		<Feature From="Laser Inkjet Printer">
-			<Name>Wireless Networking</Name>
-				<Description>Keys on a touchscreen rather than mechanical or digital Interface</Description>
-				<DevTime>8</DevTime>
-				<Innovation>6</Innovation>
-				<Usability>6</Usability>
-				<Stability>4</Stability>
-				<CodeArt>.5</CodeArt>
-				<Category>Physical</Category>
-				<Unlock>2003</Unlock>
-		</Feature>
-		<Feature From="Digital Key Interface">
-			<Name>Touchpad Key Interface</Name>
-				<Description>The interface is on a touchscreen rather than mechanical or digital Interface</Description>
-				<DevTime>8</DevTime>
-				<Innovation>7</Innovation>
-				<Usability>5</Usability>
-				<Stability>6</Stability>
-				<CodeArt>0.4</CodeArt>
-				<Category>Physical</Category>
-				<Dependency Software="Printer">Digital Key Interface</Dependency>
-				<Unlock>2006</Unlock>
-		</Feature>
-		<Feature From="Wireless Networking">
-			<Name>Auto Update</Name>
-				<Description>Keys on a touchscreen rather than mechanical or digital Interface</Description>
-				<DevTime>8</DevTime>
-				<Innovation>6</Innovation>
-				<Usability>8</Usability>
-				<Stability>8</Stability>
-				<CodeArt>0.7</CodeArt>
-				<Category>Physical</Category>
-				<Unlock>2008</Unlock>
-				<Dependency Software="Printer">Wireless Networking</Dependency>
+		<Name>Laser Inkjet Printer</Name>
+		<Description>A high-speed version of inkjet printing</Description>
+		<DevTime>8</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>6</Stability>
+		<CodeArt>0.4</CodeArt>
+		<Category>Printer</Category>
+		<Dependency Software="Printer">Inkjet Printer</Dependency>
+		<Unlock>1998</Unlock>
+	</Feature>	
+	<Feature From="Laser Inkjet Printer">
+		<Name>Wireless Networking</Name>
+		<Description>Keys on a touchscreen rather than mechanical or digital Interface</Description>
+		<DevTime>8</DevTime>
+		<Innovation>6</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>0.5</CodeArt>
+		<Category>Physical</Category>
+		<Unlock>2003</Unlock>
+	</Feature>
+	<Feature From="Digital Key Interface">
+		<Name>Touchpad Key Interface</Name>
+		<Description>The interface is on a touchscreen rather than mechanical or digital Interface</Description>
+		<DevTime>8</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>6</Stability>
+		<CodeArt>0.4</CodeArt>
+		<Category>Physical</Category>
+		<Dependency Software="Printer">Digital Key Interface</Dependency>
+		<Unlock>2006</Unlock>
+	</Feature>
+	<Feature From="Wireless Networking">
+		<Name>Auto Update</Name>
+		<Description>Keys on a touchscreen rather than mechanical or digital Interface</Description>
+		<DevTime>8</DevTime>
+		<Innovation>6</Innovation>
+		<Usability>8</Usability>
+		<Stability>8</Stability>
+		<CodeArt>0.7</CodeArt>
+		<Category>Physical</Category>
+		<Unlock>2008</Unlock>
+		<Dependency Software="Printer">Wireless Networking</Dependency>
 		</Feature>
 	</Features>
  </SoftwareType>
