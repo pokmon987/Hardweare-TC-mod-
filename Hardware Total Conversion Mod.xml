@@ -42,26 +42,26 @@
 	</Feature>
 	</Feature>
 		<Feature From="Dot matrix Printer">
-		<Name>Fine Inkjet Printing</Name>
-		<Description>A high-speed version of inkjet printing for graphic design</Description>
-		<DevTime>7</DevTime>
-		<Innovation>7</Innovation>
-		<Usability>5</Usability>
-		<Stability>6</Stability>
-		<CodeArt>0.4</CodeArt>
-		<Category>Printer</Category>
-		<Unlock>1991</Unlock>
+			<Name>Fine Inkjet Printing</Name>
+			<Description>A high-speed version of inkjet printing for graphic design</Description>
+			<DevTime>7</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Category>Printer</Category>
+			<Unlock>1991</Unlock>
 	</Feature>
 	<Feature From="Mechanical Key Interface">
 		<Name>Digital Key Interface</Name>
-		<Description>Digital Keys with a 4 color screen</Description>
-		<DevTime>4</DevTime>
-		<Innovation>6</Innovation>
-		<Usability>5</Usability>
-		<Stability>5</Stability>
-		<CodeArt>0.8</CodeArt>
-		<Category>Physical</Category>
-		<Unlock>1993</Unlock>
+			<Description>Digital Keys with a 4 color screen</Description>
+			<DevTime>4</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Category>Physical</Category>
+			<Unlock>1993</Unlock>
 		<Dependency Software="Printer">Inkjet Printer</Dependency>
 	</Feature>
 	<Feature From="Dot matrix Printer">
