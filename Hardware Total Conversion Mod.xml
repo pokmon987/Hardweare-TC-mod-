@@ -18,7 +18,7 @@
 	<InHouse>False</InHouse>		
 		<Features>
 			<Feature Forced="True">
-			<Name>Dot matrix Printer</Name>
+			<Name>Dot Matrix Printer</Name>
 			<Description>The first digital printer</Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -40,7 +40,7 @@
 			<Unlock>1980</Unlock>
 			<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 		</Feature>
-		<Feature From="Dot matrix Printer">
+		<Feature Vital="True">
 			<Name>Fine Inkjet Printing</Name>
 			<Description>A high-speed version of inkjet printing for graphic design</Description>
 			<DevTime>7</DevTime>
@@ -50,6 +50,7 @@
 			<CodeArt>0.4</CodeArt>
 			<Category>Printer</Category>
 			<Unlock>1991</Unlock>
+			<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 		</Feature>
 		<Feature From="Mechanical Key Interface">
 			<Name>Digital Key Interface</Name>
@@ -63,7 +64,7 @@
 			<Unlock>1993</Unlock>
 			<Dependency Software="Printer">Inkjet Printer</Dependency>
 		</Feature>
-		<Feature From="Dot matrix Printer">
+		<Feature From="Dot Matrix Printer">
 			<Name>Inkjet Printer</Name>
 			<Description>A method of printing involving tiny ink droplets being ejected onto the paper at high speeds</Description>
 			<DevTime>6</DevTime>
