@@ -40,8 +40,7 @@
 			<Unlock>1980</Unlock>
 			<Dependency Software="Printer">Dot Matrix Printer</Dependency>
 	</Feature>
-	</Feature>
-		<Feature From="Dot matrix Printer">
+	<Feature From="Dot matrix Printer">
 			<Name>Fine Inkjet Printing</Name>
 			<Description>A high-speed version of inkjet printing for graphic design</Description>
 			<DevTime>7</DevTime>
@@ -54,27 +53,27 @@
 	</Feature>
 	<Feature From="Mechanical Key Interface">
 		<Name>Digital Key Interface</Name>
-			<Description>Digital Keys with a 4 color screen</Description>
-			<DevTime>4</DevTime>
-			<Innovation>6</Innovation>
-			<Usability>5</Usability>
-			<Stability>5</Stability>
-			<CodeArt>0.8</CodeArt>
-			<Category>Physical</Category>
-			<Unlock>1993</Unlock>
+		<Description>Digital Keys with a 4 color screen</Description>
+		<DevTime>4</DevTime>
+		<Innovation>6</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0.8</CodeArt>
+		<Category>Physical</Category>
+		<Unlock>1993</Unlock>
 		<Dependency Software="Printer">Inkjet Printer</Dependency>
 	</Feature>
 	<Feature From="Dot matrix Printer">
-			<Name>Inkjet Printer</Name>
-				<Description>A method of printing involving tiny ink droplets being ejected onto the paper at high speeds</Description>
-				<DevTime>6</DevTime>
-				<Innovation>7</Innovation>
-				<Usability>5</Usability>
-				<Stability>6</Stability>
-				<CodeArt>0.4</CodeArt>
-				<Category>Printer</Category> 
-				<Dependency Software="Printer">Dot Matrix Printer</Dependency>
-				<Unlock>1993</Unlock>
+		<Name>Inkjet Printer</Name>
+		<Description>A method of printing involving tiny ink droplets being ejected onto the paper at high speeds</Description>
+		<DevTime>6</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>6</Stability>
+		<CodeArt>0.4</CodeArt>
+		<Category>Printer</Category> 
+		<Dependency Software="Printer">Dot Matrix Printer</Dependency>
+		<Unlock>1993</Unlock>
 	</Feature>
 	<Feature From="Inkjet Printer">
 		<Name>Laser Inkjet Printer</Name>
